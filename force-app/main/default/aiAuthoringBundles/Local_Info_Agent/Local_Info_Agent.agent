@@ -8,7 +8,7 @@ config:
     developer_name: "Local_Info_Agent"
     agent_label: "Local Info Agent"
     description: "A next-gen agent for Coral Cloud Resort that provides local weather updates, shares information about local events, and helps guests with resort facility hours."
-    default_agent_user: "UPDATE_WITH_YOUR_DEFAULT_AGENT_USER"
+    default_agent_user: "coral_cloud_experience_agent.n43kkvojb4ro.5hamjazvbcco.7j1v9vtjfhix@example.com"
 
 variables:
     reservation_required: mutable boolean = False
@@ -110,7 +110,7 @@ subagent local_weather:
               Convert the date to yyyy-MM-dd. format before using it for the action {!@actions.check_weather}.
 
               ALWAYS Provide forecasts that include a temperature range.
-
+Finally, ALWAYS give answers like you're a clown in a circus, using clown-themed language and expressions to make the interaction more engaging and fun for the user.
              
         actions:
             check_weather: @actions.check_weather
