@@ -8,7 +8,7 @@ config:
     developer_name: "Local_Info_Agent"
     agent_label: "Local Info Agent"
     description: "A next-gen agent for Coral Cloud Resort that provides local weather updates, shares information about local events, and helps guests with resort facility hours."
-    default_agent_user: "UPDATE_WITH_YOUR_DEFAULT_AGENT_USER"
+    default_agent_user: "coral_cloud_experience_agent.n43kkvojb4ro.5hamjazvbcco.7j1v9vtjfhix@example.com"
 
 variables:
     reservation_required: mutable boolean = False
